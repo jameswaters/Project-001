@@ -4,34 +4,38 @@ You can use the [editor on GitHub](https://github.com/jameswaters/Project-001/ed
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Why would we want to use this?
+ - Share experiment results
+ - Organize materials for a workshop
+ - Sharing R code
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Example R code
+This is the first few lines of our mavenR script
 
-# Header 1
-## Header 2
-### Header 3
+# Load the packages`
+library(tidyverse)
+library(mavenR)
 
-- Bulleted
-- List
+# Set directory
+data.location <- "~/Desktop/R/brachy-sicb-2022/20-July"
+data.file <- "20July_Maven_a.csv"
+data.label <- "Brachyponera chinensis (20-July-2021)"
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+setwd(data.location)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Things that would be nice to learn how to do 
 
-### Jekyll Themes
+ - Can we add photos/images?
+ - Can we publish R Markdown code? (R scripts with graphs embedded)
+ - Can we link to files in our github directory?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jameswaters/Project-001/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Attempt to attach a file!
+If this works, it's because I dragged this `.png` from the desktop of my computer into the editing window. 
+[FlyPoster-SICB-2022_sm](https://user-images.githubusercontent.com/6729255/150399734-16f911d8-6bd6-4460-baa7-8a0cb54baae3.png)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
