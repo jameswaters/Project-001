@@ -33,9 +33,14 @@ setwd(data.location)
  - Can we link to files in our github directory?
 
 ### Attempt to attach a file!
-If this works, it's because I dragged this `.png` from the desktop of my computer into the editing window. 
+Trying to show an image of our poster from SICB. If this works, it's because I dragged this `.png` from the desktop of my computer into the editing window. 
+
 [FlyPoster-SICB-2022_sm](https://user-images.githubusercontent.com/6729255/150399734-16f911d8-6bd6-4460-baa7-8a0cb54baae3.png)
 
+Okay turns out that didn't really work. It added a link so you can click on it to see the poster. But can we embed it on the page? 
+
+Trying using the same code as above but with an exclamation point `!` first ...
+![FlyPoster-SICB-2022_sm](https://user-images.githubusercontent.com/6729255/150399734-16f911d8-6bd6-4460-baa7-8a0cb54baae3.png)
 
 
 
